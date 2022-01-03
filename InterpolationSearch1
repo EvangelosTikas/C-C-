@@ -1,0 +1,58 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+#include "BubbleSort.cpp"
+using namespace std;
+/*
+T must implement the operators -, !=, ==, >=, <= and <
+such that >=, <=, !=, == and < define a total order on T and
+such that
+
+(tm - tl) * k / (th - tl)
+
+is an int between 0 and k (inclusive) for any tl, tm, th in T with tl <= tm <= th, tl != th.
+
+arr must be sorted according to this ordering.
+
+\returns An index i such that arr[i] == key or -1 if there is no i that satisfies this.
+*/
+template <typename T>
+int interpolation_search(T arr[], int size, T key)
+{
+    int low = 0;
+    int high = size - 1;
+    int pos;
+
+    while ((arr[high] != arr[low]) && (key >= arr[low]) && (key <= arr[high])) {
+        pos = low + ((key - arr[low]) * (high - low) / (arr[high] - arr[low]));
+
+        if (arr[pos ] < key)
+            low = pos + 1;
+        else if (key < arr[pos ])
+            high = pos - 1;
+        else
+            return pos;
+    }
+
+    if (key == arr[low])
+        return low ;
+    else
+        return -1;
+}
+
+int main(){
+	int arr1[] = {4,5,8,9,12,7,6};
+	int key1,k;
+	int arr1Size = *(&arr1 + 1) - arr1;
+//  -- Note: different command for array size compared with the adress 
+//  operator method, used above as an example -- 
+//  int n = sizeof(arr)/sizeof(arr[0]);
+//  bubbleSort function takes an array and its size as arguments and returns a sorted array
+    bubbleSort(arr1, arr1Size);
+    cout <<"Sorted array: \n";
+    printArray(arr1, arr1Size);
+	cout<<"Key value searched is ";
+	cin>>key1;
+	k = interpolation_search(arr1,arr1Size, key1);
+	cout<<k<<endl;
+}
