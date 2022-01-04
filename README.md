@@ -15,8 +15,11 @@ Here are some ideas to get you started:
 
 - 📫 How to reach me:
 
-[facebook]
+> [facebook]
 
+> [instagram]
+
+> [linkedin]
 
 Main applications, tests, tutorials and any exercises involved in MSc Electronics, Physics AUTh!
 
@@ -26,3 +29,5 @@ Main applications, tests, tutorials and any exercises involved in MSc Electronic
 
 [website]: https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/?ref=leftbar-rightbar
 [facebook]: https://www.facebook.com/vagelis.tikas/
+[instagram]: https://www.instagram.com/vaggelis_tikas/
+[linkedin]: https://www.linkedin.com/notifications/
