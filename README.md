@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 
 - 📫 How to reach me:
 
-[<img aling="left" src = https://www.facebook.com/vagelis.tikas/]
+[<img aling="left" alt= "codeStackr" src = https://www.facebook.com/vagelis.tikas/]
 
 
 Main applications, tests, tutorials and any exercises involved in MSc Electronics, Physics AUTh!
