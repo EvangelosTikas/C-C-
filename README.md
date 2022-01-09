@@ -8,9 +8,9 @@ Here are some ideas to get you started:
 - 🔭 I’m currently working on [website]!
 - 🌱 I’m currently learning C++, Python, HTML/CSS.
 - 👯 I’m looking to collaborate on a Machine-learning project
-- 🤔 I’m looking for help with ...
+- 🤔 I’m looking for help with Convolutional Neural Networks
 - 💬 Ask me about anything!
-- ⚡ Fun fact: ...
+- ⚡ Fun fact: Started from Physics, passed through astronomy and enden in Electronic Engineering and Programming
 -->
 
 - 📫 How to reach me:
@@ -20,6 +20,8 @@ Here are some ideas to get you started:
 > [instagram]
 
 > [linkedin]
+
+> [researchgate]
 
 Main applications, tests, tutorials and any exercises involved in MSc Electronics, Physics AUTh!
 
@@ -31,3 +33,4 @@ Main applications, tests, tutorials and any exercises involved in MSc Electronic
 [facebook]: https://www.facebook.com/vagelis.tikas/
 [instagram]: https://www.instagram.com/vaggelis_tikas/
 [linkedin]: https://www.linkedin.com/notifications/
+[researchgate]: https://www.researchgate.net/profile/Evangelos-Tikas
