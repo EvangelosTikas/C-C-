@@ -10,7 +10,7 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on a Machine-learning project
 - 🤔 I’m looking for help with Convolutional Neural Networks
 - 💬 Ask me about anything!
-- ⚡ Fun fact: Started from Physics, passed through astronomy and enden in Electronic Engineering and Programming
+- ⚡ Fun fact: Started from Physics, passed through astronomy and ended in Electronic Engineering and Software/Hardware design
 -->
 
 - 📫 How to reach me:
